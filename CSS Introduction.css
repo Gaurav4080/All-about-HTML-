@@ -1,0 +1,76 @@
+/* p{
+    color: yellow;
+}
+
+a{
+    color: yellow;
+} */
+
+/* a,p{
+    color: teal;
+} */
+
+/* li{
+    list-style: none;
+} */
+
+
+/* .special{
+    color: orange;
+    font-weight: bold;
+} */
+
+
+/* span.special, li.special{
+    font-size: larger;
+    color: yellow;
+} */
+
+
+/* li em{
+    color: yellow;
+} */
+
+
+/* h1+p{
+    color: yellow;
+} */
+
+/* a:hover{
+    text-decoration: none;
+} */
+
+/* body h1+p .special{
+    color: yellow;
+} */
+
+
+/* h1{
+    padding: 5px;
+} */
+
+/* #another{
+    color: yellow;
+} */
+
+/* li#mine{
+    color: yellow;
+} */
+
+
+/* li[class]{
+    color: yellow;
+} */
+
+
+/* li[class="special"]{
+    background-color: black;
+    color: yellow;
+} */
+
+
+*{
+    font-size: 200%;
+}
+
+
