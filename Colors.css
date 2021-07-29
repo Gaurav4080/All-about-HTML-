@@ -1,0 +1,40 @@
+/* h1{
+    color: yellow;
+    background-color: black;
+}
+
+p{
+    background-color: pink;
+} */
+
+
+/* p{
+    background-color: #fff;
+}
+
+
+h1{
+    background-color: rgb(87, 42, 42);
+} */
+
+/* h1{
+    background-color: rgb(0, 0, 0);
+} */
+
+
+/* h1{
+    background-color: sandybrown;
+} */
+
+
+h1{
+    background-image: url("all.jpg");
+    height: 900px;
+    /* text-align: center; */
+    /* color: yellow; */
+    background-size: 100px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+}
