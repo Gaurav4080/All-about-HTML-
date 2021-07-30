@@ -1,0 +1,15 @@
+table, tr, th, td{
+    border: 2px solid chocolate;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+th{
+    background-color: pink;
+}
+
+td{
+    color: blue;
+    background-color: cornflowerblue;
+}
