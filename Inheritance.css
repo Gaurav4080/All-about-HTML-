@@ -1,0 +1,15 @@
+.class1 a{
+    color: inherit;
+}
+
+body{
+    color: blue;
+}
+
+.class2 a{
+    color: initial;
+}
+
+.class3 a{
+    color: unset;
+}
