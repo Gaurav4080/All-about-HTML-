@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 4em;
+        }
+
+       /* @media screen and (width: 600px) {
+           body {
+               color: red;
+           }
+       } */
+       /* @media screen and (orientation: landscape) {
+           body {
+               color: blue;
+           }
+       } */
+
+       /* this is the And Operator ahead */
+
+       /* @media screen and (max-width: 600px) and (orientation: landscape) {
+           body{
+               color: yellow;
+           }
+       } */
+       /* this is the Or Operator ahead */
+
+       /* @media screen and (max-width: 600px),
+       screen and (orientation: landscape) {
+           body{
+               color: yellow;
+           }
+       } */
+       /* this is the Not Operator ahead */
+
+       @media not all and (max-width: 600px) {
+           body{
+               color: yellow;
+           }
+       }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aut, non facere, animi obcaecati natus tempora eius dolore consequatur cupiditate quidem. Commodi repudiandae pariatur dolor impedit maxime cupiditate neque excepturi?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aperiam voluptates quisquam quis omnis, repellat quae voluptatem sit magni, nemo quia esse aliquid officia explicabo illum, velit saepe delectus. Id?</p>
+</body>
+</html>
