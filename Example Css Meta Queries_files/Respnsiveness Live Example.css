@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px Georgia, serif;
+    background-color: white;
+}
+
+article, aside, figure, footer, header, hgroup, nav, menu, section{
+    display: block;
+}
+h2{
+    font-size: 24px;
+    margin: 0px 0px 10px 0px;
+
+}
+h3{
+    margin: 0px 0px 8px 0px;
+}
+p{
+    margin: 0px 0px 20px 0px;
+}
+.fluidwrap{
+    width: 70%;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+.sidebar{
+    width: 35%;
+    float: left;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li a{
+    color: #900;
+    text-decoration: none;
+    display: block;
+    padding: 3px 0px;
+}
+@media all and (min-width: 1001px) {
+    .sidebar ul li a::after {
+        content: "(" attr(data-email) ")";
+    }
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+    .sidebar ul li a::before {
+        content: "Email: ";
+        font-style: italic;
+        color: #666;
+    }
+}
+@media all and (max-width: 700px) and (min-width: 500px), (min-width: 1050px) {
+    .sidebar ul li a::before {
+        padding-left: 21px;
+        background: url(../Capture.JPG) left center no-repeat;
+    }
+}
+.main{
+    float: right;
+    width: 65%;
+
+}
