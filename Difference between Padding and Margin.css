@@ -1,0 +1,48 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: blueviolet solid 10px;
+    margin: 20px;
+    text-align: center;
+}
+.wrapper{
+    background-color: red;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+nav{
+    background-color: blue;
+    overflow: hidden;
+}
+
+nav a:hover{
+    color: tomato;
+}
+
+nav a:visited{
+    color: blue;
+
+}

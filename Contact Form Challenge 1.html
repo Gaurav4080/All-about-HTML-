@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 20px 30px;
+            font-size: 16px;
+            padding: 8px;
+        }
+
+        .container{
+            background-color: rgb(221, 231, 226);
+            padding: 15px 20px 15px 10px;
+            border: solid rgb(114, 116, 114) 2px;
+            border-radius: 8px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="text"],
+        textarea, select{
+            width: 100%;
+            padding: 6px;
+            margin: 8px;
+            border-radius: 8px;
+            border: solid 2px black;
+        }
+        .mainheading{
+            text-align: center;
+        }
+        input[type="submit"] {
+            background-color: rgb(146, 140, 135);
+            color: white;
+            font-weight: bolder;
+            padding: 8px;
+            align-items: center;
+            width: 20%;
+            border: 2px solid rgba(104, 104, 161, 0.616);
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover{
+    color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1 class="mainheading">Contact Form</h1>
+        <p>Please fill all the information in the fieldsets provided below</p>
+    </header>
+    <main>
+        <p>Your Name:* <input type="text" required placeholder="Full Name"></p>
+        <p>Your Email:* <input type="email" required placeholder="Your Emial-Id"></p>
+        <p>Message: <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Write a message to us!!"></textarea></p>
+        <p>Subject <select name="Subject" id="Subject">
+            <option value="#">Select a Type</option>
+            <option value="Vacancy">Vacancy Query</option>
+            <option value="Salary">Salary Query</option>
+            <option value="Others">Others</option>
+        </select></p>
+        <input type="submit" value="Submit Now">
+    </main>
+</body>
+</div>
+</html>
